@@ -1,10 +1,16 @@
 # Hermes iOS 26 PAC Fix
 
+
+
 **Fix by Simon Luzardo** — Indie developer, Houston TX  
 🐦 X: [@SimonLuzardoV] https://x.com/SimonLuzardoV  
 💼 LinkedIn: https://linkedin.com/in/simon-luzardo-305323252  
 📧 Contact: fairpay25@gmail.com 
 🏗️ Building: [Stella](https://github.com/SimonLuzardo) — AI chat app | [FairPay](https://fairpay.it.com) — group payments app
+
+---
+ 
+This workaround resolves the iOS 26 crash by recompiling Hermes with arm64e support. The root cause is a React Native threading issue (facebook/hermes#1966), not PAC. This workaround is effective until the official React Native fix is released.
 
 ---
 
